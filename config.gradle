@@ -1,0 +1,29 @@
+/**
+ * 版本信息
+ */
+ext {
+
+    android_lib = [
+            compileSdkVersion: 23,
+            buildToolsVersion: "23.0.3",
+            minSdkVersion    : 15,
+            targetSdkVersion : 23,
+            versionCode      : 100,
+            versionName      : "1.0.0"
+    ]
+
+    android_app = [
+            compileSdkVersion: 23,
+            buildToolsVersion: "23.0.3",
+            applicationId    : "com.yong.eyepetizer",
+            minSdkVersion    : 15,
+            targetSdkVersion : 23,
+            versionCode      : 100,
+            versionName      : "1.0.0"]
+
+    dependencies = ["support-v4"     : "com.android.support:support-v4:23.3.0",
+                    "appcompat-v7"   : "com.android.support:appcompat-v7:23.3.0",
+                    "design"         : "com.android.support:design:23.3.0",
+                    "recyclerview-v7": "com.android.support:recyclerview-v7:23.3.0"
+    ]
+}
