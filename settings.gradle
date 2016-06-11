@@ -1,1 +1,2 @@
-include ':app_eyepetizer', ':liba_eyepetizer'
+include ':liba_eyepetizer'
+include ':app_eyepetizer'
